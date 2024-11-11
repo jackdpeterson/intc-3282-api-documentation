@@ -1,0 +1,20 @@
+= INTC-3283 Sample API Guide
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+= Resources
+
+== Tasks
+Create a new task
+
+=== Create a task
+.request
+include::{snippets}/tasks/create/http-request.adoc[]
+
+.response
+include::{snippets}/tasks/create/http-response.adoc[]
+
