@@ -1,11 +1,8 @@
-# curl -X POST https://reqbin.com/echo/post/json
-#   -H 'Content-Type: application/json'
-#   -d '{"login":"my_login","password":"my_password"}'
 POST http://localhost:8080/api/tasks
 Content-Type: application/json
 
 {
   "title": "Mow my lawn",
   "description": "I'd like my lawn mowed.",
-  "willingToPay": 4
+  "willingToPay": 50
 }
